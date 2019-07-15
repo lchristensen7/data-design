@@ -1,0 +1,41 @@
+<h1>Conceptual Model</h1>
+
+
+<div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile modified=\&quot;2019-07-15T22:08:38.650Z\&quot; host=\&quot;www.draw.io\&quot; agent=\&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36\&quot; etag=\&quot;3LT0yHK28ad2tZu3EtMD\&quot; version=\&quot;10.9.7\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;XdpJttLjnqWxKJ9oqCnR\&quot; name=\&quot;Page-1\&quot;&gt;7Zpbc9o4FMc/DY/JWDbXxwJpdztkl0nS6fZRsYXRRpZYIcLl0++RLeEr1IFQ0hknDIOOLpbO76/DsXDLG0WbLxIv5vciIKzlOsGm5Y1brtvv9uFdG7aJoe11EkMoaZCYUGp4pDtijI6xrmhAlrmGSgim6CJv9AXnxFc5G5ZSrPPNZoLlr7rAISkZHn3MytbvNFBzs6yOk9r/IDSc2ysjx9RE2DY2huUcB2KdMXl3LW8khVDJp2gzIkz7zvol6ff5QO1+YpJwVafDeLNW/f8mmzHfff36PBv+aL/ubgyMV8xWZsHflkSaCaut9cJyTSOGOZSGM8HVo6lxoOzPKQsmeCtWehZLhf0XWxrOhaQ7aI8ZVCEwQLVUBrLb1aNRxkaCCRlfxyOO/s/1fNQjmmtJsoS+U7tkVDDd402u4QQvlZ2lYAwvlvQ5nrfuGGEZUj4USonINLKr/Jyf1Cz+g3rMaMjB5sO1wEnGF8lqUBvKZSSG0iuRimwyJoPoCxERUXILTUztwKjFbpduUlyn2kNd02Se1Z1rGmKj93A/cioJ+GBU8QaFdEsKWYFC/hyXNAILVDFiKV6IdR8XiWgyHjWm5QL7lIcTMtNLaKeWB7MqbRLguBmLd82cBgHhmq1QWOHnvQAXgnIVr7ozhBc4Z+TcdlodmNMIyigtw0s3l2okOEwT05gSAZWsiVZKjqdbyfPoJvo5ZEPVrUn1YlB7lVD/whFpsJ6OteNeGWu/eq/ymWjpa3rI2a++IXwK4V6/JmH3QoTtwAXEUymAFJlSX61ks4fPILzP3662iQclwhP6UmbapGS/KiXz3HxO5nZ79SRio8W7S8TeHGU0wkAj35rErHor/T6JGUKVZKdzoUSD9hy0V0/OkFdCG2NtIvvVInunW7jbrqkR5DmXEkm7JJKFFskILxQVvAkA5e30GwX38mlbAldEkV5sA/d0uNcP7+WDshjuRPi42bpn0q19330pum75yzum+4TDBuwZYJHTvjJZD5UAkiAkNusCJ81FKDhmd6kVXL/iAQmM49M2EyEWJuX5lyi1NT7EK0jzIM9Skc3NyIaqf3T3217HFH+Y0fTn8SZb2NoChwUnvQZe3xrifreOh6wh7RyXcr2nRFLwm06oxk4lWOsOsZI+qcEaksyQ1BGF9upRSUjCIFK+ktw83p93+QTtqADAMVRtH+K5CZ4VQXGTZPHy4JP+8RGKdw87IsWTuMd8a5PytC7CPPg7DgN7uDcAMx4vR7f/rnR/Ds2pCS27b52qVNkaa9M115jqaJam6m4nn6qjtpcfIhGs6eVmfgYtDFQ8zUG9wllt4pvSQLHY9gs/Q3/lb5IPqL9BXn8IdU7Rn41yKBPibvajHY5zUHi/QNWrK/n2B5N8San20Ym3Sr5dGKg4zqUVX76n/ZWKhxp9xtDKHIocalkhV+fWPS7W04U5+GB6a3cPnHO/VW/FYxVUHOjSgivfZz/pnPxAop5RUXyUdTClHlcdS+lcl/qYfTIVEaTnsVgZfiZsiP2XMM4Wq864yto5voGKafX+sScz5Vb2yaKqAy8d2/tokKNjA+Sp6rFNxGy2JG/kCcX0AaikefoUmXf3Pw==&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
+
+<strong>User:</strong>
+<li>userID (primary key)</li>
+<li>userInfo</li>
+<li>userName</li>
+<li>userProfilePicture</li>
+
+<div>
+	<strong>Photo:</strong>
+	<li>photoUserID (Foreign Key)</li>
+	<li>photoCaption</li>
+	<li>photoComment</li>
+	<li>photoLocation</li>
+	<li>photoTag</li>
+</div>
+
+<div>
+	<strong>LikeUser:</strong>
+	<li>likeUserID(Primary Key)</li>
+	<li>likePhotoID(Foreign Key)</li>
+</div>
+
+
+<ul>
+	<li><a href="index.php">Home</a></li>
+	<li><a href="persona-name.php">User Story</a></li>
+	<li><a href="use-case.php">Use-Case</a></li>
+	<li><a href="conceptual-model.html">Conceptual Model</a></li>
+</ul>
+
+
+</body>
+</html>
+
+
+
