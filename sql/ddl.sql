@@ -8,7 +8,7 @@ create table user(
 	userInfo varchar(120),
 	userProfilePicture varchar(120),
 	UNIQUE key(userName),
-	PRIMARY KEY (userId)
+	primary key(userId)
 );
 
 
@@ -19,9 +19,9 @@ create table photo(
 	photoComment varchar (32),
 	photoLocation varchar (32),
 	photoTag varchar (35),
-	INDEX (photoUserID),
-	foreign key (photoUserID) references user (userId),
-	primary key (photoID)
+	index (photoUserID),
+	foreign key(photoUserID) references user (userId),
+	primary key(photoID)
 );
 
 create table `like` (
@@ -30,5 +30,5 @@ create table `like` (
 	index(likeUserId),
 	index(likePhotoId),
 	foreign key(likeUserId) references user(userId),
-	foreign key (likePhotoID) references photo (photoID)
+	foreign key(likePhotoID) references photo (photoID)
 );

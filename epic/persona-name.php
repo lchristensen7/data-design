@@ -7,7 +7,7 @@
 	<body>
 		<h1>Persona</h1>
 
-		<img><img class="irc_mi" src="https://www.flipkey.com/blog/wp-content/uploads/iStock_000039083542_Small.jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" alt="Image result for lady traveler" width="304" height="202" style="margin-top: 76px;" data-iml="1562711933762"></body>
+		<img class="irc_mi" src="https://www.flipkey.com/blog/wp-content/uploads/iStock_000039083542_Small.jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" alt="Image result for lady traveler" width="304" height="202" style="margin-top: 76px;" data-iml="1562711933762"></body>
 	<div class="center">
 		<li>Name: Paige Turner</li>
 		<li>Gender:Female</li>
