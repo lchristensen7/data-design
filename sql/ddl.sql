@@ -1,7 +1,6 @@
-drop table if exists userID;
-drop table if exists photoTag;
-drop table if exists tag;
-drop table if exists photoComment;
+drop table if exists user;
+drop table if exists photo;
+drop table if exists like;
 
 create table user(
 	userId binary(16) not null,
